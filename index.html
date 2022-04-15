@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Balance Sheet</title> 
+        <link rel="stylesheet" href="css/BalanceSheet.css" >
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>        
+
+    </head>
+    <body id="body" >
+
+            <div id="title" class="container-fluid" >
+            <h3>Bellarmine Financials-Balance Sheet Calculator</h3> 
+            </div>
+            <div id="table-container">
+                <div  id= "Tabletitles" class="row">
+                    <div class="col">
+                    Assets
+                    </div>
+                    <div class="col">
+                    Liabilities
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="CurrentAssets" class="col">
+                    Current Assets<br>
+                    <button type="button" id="addCurrentAssets" class="btn-sm" ><b>Add Current Assets</b></button>
+                    </div>
+                    <div id="CurrentLiabilties" class="col">
+                    Current Liabilities<br>
+                    <button type="button" id="addCurrrentLiabilities" class="btn-sm" ><b>Add Current Liabilities</b></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id= "InvestmentPropertyandEquipment" class="col">
+                    Investments Property and Equipment
+                    <button type="button" id="addInvestmentPropertyAndEquipment" class="btn-sm" ><b>Add Investment Property & Equipment</b></button>
+                    </div>
+                    <div id= "LongtermLiabilities" class="col">
+                    Long-Term Liabilities
+                    <button type="button" id="addLongTermLiabilites" class="btn-sm" ><b>Add Long-Term Liabilities</b></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="intangibles" class="col">
+                    Intangibles
+                    <button type="button" id="addIntangibles" class="btn-sm" ><b>Add Intangibles</b></button>
+                    </div>
+                    <div id="totalPosition" class="col">
+                    <p><h4 id="tp">Total Position</h4>
+                    <br>
+                    <h6 id="TotalAssets">Total Assets: </h6>
+                    <h6 id="TotalLiabilities">Total Liabilities:</h6>
+                    <h6 id="position">Position:</h3></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+            <div id="footer" class="container-fluid" >
+                <p>Bellarmine University 2022</p> 
+            </div>
+            
+        <script src="js/BalanceSheet.js" ></script>
+    </body> 
+
+</html>

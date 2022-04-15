@@ -1,0 +1,71 @@
+#body {
+background-color: goldenrod;
+color: black;
+font-weight: bold;
+
+}
+
+
+
+#title {
+    background-color: maroon;
+    display: flex;
+    color: white;
+    
+}
+
+#footer{
+    background-color: maroon;
+    display: flex;
+    font-weight: lighter;
+    color: white;
+}
+
+#Tabletitles{
+    background-color: black;
+   font-size: large;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    margin:5px ;
+    min-height: 75px;
+   
+}
+.col   {
+    column-gap: 5px;
+    display: flex;
+}
+
+#table-container{
+    overflow: hidden;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+
+#addIntangibles{
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom:10%; 
+}
+
+.btn-sm{
+    justify-content: center;
+    max-width: 300px;
+    max-height: 40px;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom:4%;
+   align-self: auto;
+  
+}
+#totalPosition {
+   display: block;
+   
+}
